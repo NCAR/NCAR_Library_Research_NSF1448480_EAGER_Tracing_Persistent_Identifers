@@ -29,10 +29,6 @@ for line in file:
     cleanDOI = str(line)
     cleanDOI = re.sub("\n", "", cleanDOI)
     url = "http://dx.doi.org/" + cleanDOI
-    #url = "http://dx.doi.org/10.1126/science.1197869"
-    #url = "http://dx.doi.org/10.1175/2010JHM1297.1"        #NARCCAP article
-    #url = "http://dx.doi.org/10.5065/D6WD3XH5"          #NCL DOI
-    #url = "http://dx.doi.org/10.5065/D6RN35ST"             #NARCCAP DOI
     headers = {"Accept": "text/turtle"}
     #headers = {"Accept": "Application/x-datacite+xml"}
     values = {"-D": "-", "-L": ""}
