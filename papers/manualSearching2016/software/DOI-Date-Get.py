@@ -45,10 +45,6 @@ for line in file:
     
         # Query DOI service for the DOI metadata
         url = "http://dx.doi.org/" + DOI
-        #url = "http://dx.doi.org/10.1126/science.1197869"
-        #url = "http://dx.doi.org/10.1175/2010JHM1297.1"        #NARCCAP article
-        #url = "http://dx.doi.org/10.5065/D6WD3XH5"          #NCL DOI
-        #url = "http://dx.doi.org/10.5065/D6RN35ST"             #NARCCAP DOI
         headers = {"Accept": "text/turtle"}
         #headers = {"Accept": "Application/x-datacite+xml"}
         values = {"-D": "-", "-L": ""}
@@ -64,22 +60,6 @@ for line in file:
 
             #converts the response from 'bytes' to a string
             m = str(metadata, 'utf-8')
-
-            #finds all lines that have these terms in them
-            '''
-            print(url + "\n AUTHOR")
-            print(re.findall(".+http://xmlns.com/foaf/0.1/name.+",m))
-            print("\nTITLE")
-            print(re.findall(".+title.+",m))
-            print("\nVOLUME")
-            print(re.findall(".+volume.+",m))
-            print("\nISSUE")
-            print(re.findall(".+issue+",m))
-            print("\nDATE")
-            print(re.findall(".+date.+",m))
-            print("\nPAGE")
-            print(re.findall(".+page.+",m))
-            '''
             
             # Find the date string by finding it in the returned XML
             #Y_string = re.findall(".+http://www.w3.org/2001/XMLSchema#gYearMonth.+",m)
