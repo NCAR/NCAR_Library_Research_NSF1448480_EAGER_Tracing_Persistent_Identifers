@@ -62,7 +62,7 @@ Yellowstone-ARK-Refs.csv - Data about documents that reference the Yellowstone S
 
 
 SECTION 3 - DATA FILE STRUCTURE
-Each of the eight data files has the same structure. Each data file has three columns:
+Each of the eight data files has the same structure. Each data file has four columns:
 
 Column 1 - "Doc-IDs"
 This column lists the web-accessible identifiers for the documents that referenced the resource of interest. The identifiers included in the list consist of DOIs for primary literature and URLs for gray literature. This distinction is also coded in column 3 below. 
@@ -80,12 +80,13 @@ This column lists the type of paper identified in column 1. As noted above, for 
 P - Primary literature
 G - Gray literature
 
-
+Column 4 - "Pub-Date"
+This column lists the data of publication for the document. The date is in the format "yyyy-mm-dd", though the dates may only include the year or year+month. The values are listed as returned by the DOI metadata service. If the DOI metadata service did not return a viable metadata record for the document, the document was examined manually to determine the date of publication. In these cases, only the year was recorded. No dates were recorded for gray literature. For these cases, the Pub-Date column lists "NA" to indicate that the date is not available.
 
 SECTION 4 - EXAMPLE
 Here the first line of one data file is described as an example of the data structure and codes. In the file NARCCAP-DOI-Refs.csv, the first line (after the column header labels) is as follows:
 
-10.1175/JAMC-D-13-0361.1,T,P
+10.1175/JAMC-D-13-0361.1,T,P,2014-09
 
-This means that the article with DOI "10.1175/JAMC-D-13-0361.1", in this case an article from the Journal of Applied Meteorology and Climatology, referenced the NARCCAP data set via an in-text reference (second column "T"). Because it is a journal article with a DOI, it is coded as "P" for "Primary literature" in the third column.
+This means that the article with DOI "10.1175/JAMC-D-13-0361.1", in this case an article from the Journal of Applied Meteorology and Climatology, referenced the NARCCAP data set via an in-text reference (second column "T"). Because it is a journal article with a DOI, it is coded as "P" for "Primary literature" in the third column. The publication date that was returned by the DOI resolution service was "2014-09".
 
