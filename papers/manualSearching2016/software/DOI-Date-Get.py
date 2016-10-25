@@ -1,13 +1,13 @@
 # Code by Matt Mayernik, mayernik@ucar.edu
 # Written in Python 3.3
-# This script takes in a list of DOIs, and returns a file of DOIs + dates of publication for those DOIs
+# This script takes in a list of DOIs, and returns the dates of publication for those DOIs
 
 import urllib
 from urllib.request import Request, urlopen
 from urllib.error import  URLError
 import re
 
-file_name = 'NCL-DOI-Refs.csv'      #CHANGE THIS VALUE TO THE APPROPRIATE FILE
+file_name = ''      #INSERT THE APPROPRIATE FILE NAME
 
 file = open(file_name).readlines()
 
@@ -77,7 +77,7 @@ for line in file:
             # print the URL and fail notice to the console
             print(url)
             print("FAIL")
-            # add the URL that threw and error to the fail list
+            # add the URL that threw an error to the fail list
             fail.append(DOI)
 
 
