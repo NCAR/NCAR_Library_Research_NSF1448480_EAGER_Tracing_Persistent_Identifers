@@ -1,7 +1,6 @@
-Readme for:
-[TO UPDATE NAME OF DATA PACKAGE, AND ASSOCIATED PAPER]
+Readme for: Assessing the uptake of persistent identifiers by research infrastructure users
 Readme author and contact person: Matt Mayernik, mayernik@ucar.edu
-Readme created: Oct. 6, 2016
+Readme created: Dec. 1, 2016
 
 
 SECTION 1 - METHOD 
