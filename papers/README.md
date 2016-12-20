@@ -1,5 +1,3 @@
-# Research Papers
+# PLoS ONE Paper Assets
 
-| Citation | Abstract |
-|----------|----------|
-| --       | --       |
+This is the location of the PLoS ONE assets for figures and derived data.
