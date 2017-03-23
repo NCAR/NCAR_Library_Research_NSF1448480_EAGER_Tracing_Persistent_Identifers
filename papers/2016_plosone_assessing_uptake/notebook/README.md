@@ -1,5 +1,4 @@
-Jupyter notebook for PLOS One Paper figures :
-
+## Jupyter notebook for PLOS One Paper figures
 
 This notebook is best viewed with NBViewer :
 
