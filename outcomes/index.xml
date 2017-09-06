@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Outcomes on Tracing Persistent Identifiers</title>
-    <link>http://example.org/outcomes/</link>
+    <link>https://ncar.github.io/NCAR_Library_Research_NSF1448480_EAGER_Tracing_Persistent_Identifers/outcomes/</link>
     <description>Recent content in Outcomes on Tracing Persistent Identifiers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/outcomes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ncar.github.io/NCAR_Library_Research_NSF1448480_EAGER_Tracing_Persistent_Identifers/outcomes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code</title>
-      <link>http://example.org/outcomes/code/</link>
+      <link>https://ncar.github.io/NCAR_Library_Research_NSF1448480_EAGER_Tracing_Persistent_Identifers/outcomes/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/outcomes/code/</guid>
+      <guid>https://ncar.github.io/NCAR_Library_Research_NSF1448480_EAGER_Tracing_Persistent_Identifers/outcomes/code/</guid>
       <description>This is for code.</description>
     </item>
     
     <item>
       <title>Project Outcomes</title>
-      <link>http://example.org/outcomes/</link>
+      <link>https://ncar.github.io/NCAR_Library_Research_NSF1448480_EAGER_Tracing_Persistent_Identifers/outcomes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/outcomes/</guid>
+      <guid>https://ncar.github.io/NCAR_Library_Research_NSF1448480_EAGER_Tracing_Persistent_Identifers/outcomes/</guid>
       <description>Papers Mayernik MS, Maull KE (2017) Assessing the uptake of persistent identifiers by research infrastructure users. PLoS ONE 12(4): e0175418. https://doi.org/10.1371/journal.pone.0175418
 Code Top level Github Repository | NSF Funded EAGER Project : NSF1448480 Tracing Persistent Identifers | https://git.io/vPnbB
  PLOS One paper code  Github source code Jupyter Notebook  Python document classifier code  Github Jupyter Notebook   Data Various data products were used in the development of this research.</description>
